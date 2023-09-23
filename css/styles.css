@@ -11,12 +11,44 @@ a {
 body {
   font-family: "Roboto", sans-serif;
 }
-.main-header-content {
+ul {
+  list-style-type: none;
+}
+.logo-header {
   color: var(--NAVY-BLUE);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.54px;
 }
-.logo {
-  color: var(--CLOUD);
-}
-.logo span {
+.logo-header span {
   color: var(--IRIS);
+}
+.main-header-menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--NAVY-BLUE);
+  letter-spacing: 0.32px;
+}
+.contact-info {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-weight: 400;
+}
+.main-heading {
+  background-color: var(--NAVY-BLUE);
+}
+.header-1 {
+  color: var(--WHITE);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+}
+button {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
 }
