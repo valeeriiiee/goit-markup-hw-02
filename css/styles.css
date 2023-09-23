@@ -11,7 +11,8 @@ a {
 body {
   font-family: "Roboto", sans-serif;
 }
-.main-header {
+.main-header-content {
+  color: var(--NAVY-BLUE);
 }
 .logo {
   color: var(--CLOUD);
