@@ -5,7 +5,7 @@
   --CLOUD: #f4f4fd;
   --SLATE: #434455;
 }
-a:link {
+a {
   text-decoration: none;
 }
 body {
