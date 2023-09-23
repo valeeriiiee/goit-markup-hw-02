@@ -74,3 +74,22 @@ h2 {
   font-weight: 700;
   letter-spacing: 1.12px;
 }
+.team {
+  background-color: var(--CLOUD);
+}
+footer {
+  background-color: var(--NAVY-BLUE);
+}
+.logo-footer {
+  color: var(--CLOUD);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+}
+.logo-footer span {
+  color: var(--IRIS);
+}
+.p-footer {
+  color: var(--CLOUD);
+}
