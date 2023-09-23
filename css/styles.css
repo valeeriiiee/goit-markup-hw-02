@@ -1,0 +1,21 @@
+:root {
+  --IRIS: #4d5ae5;
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --WHITE: #fff;
+  --CLOUD: #f4f4fd;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.main-header {
+}
+.logo {
+  color: var(--CLOUD);
+}
+.logo span {
+  color: var(--IRIS);
+}
