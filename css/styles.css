@@ -4,17 +4,59 @@
   --WHITE: #fff;
   --CLOUD: #f4f4fd;
   --SLATE: #434455;
+  --CORNFLOWER: #e7e9fc;
 }
-a {
-  text-decoration: none;
-}
+/* STYLES FOR MAIN TAGS */
 body {
   font-family: "Roboto", sans-serif;
+}
+/* HEADER STYLES */
+a {
+  text-decoration: none;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.logo-header {
+  color: var(--NAVY-BLUE);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+}
+.logo-header span {
+  color: var(--IRIS);
+}
+.main-header-menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--NAVY-BLUE);
+  letter-spacing: 0.32px;
+}
+a[href="mailto:info@devstudio.com"] {
+  font-size: 16px;
+  color: var(--SLATE);
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+a[href="tel:+11(000)111-11-11"] {
+  font-size: 16px;
+  color: var(--SLATE);
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+/* FIRST SECTION STYLES */
+.main-heading {
+  background-color: var(--NAVY-BLUE);
+}
+.header-1 {
+  color: var(--WHITE);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 1.12px;
 }
 button {
   background-color: var(--IRIS);
@@ -23,6 +65,7 @@ button {
   font-weight: 500;
   letter-spacing: 0.64px;
 }
+/* VISSION MISSION STYLES */
 h3 {
   font-size: 20px;
   font-weight: 500;
@@ -42,41 +85,11 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.72px;
 }
-.logo-header {
-  color: var(--NAVY-BLUE);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 0.54px;
-}
-.logo-header span {
-  color: var(--IRIS);
-}
-.main-header-menu-link {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--NAVY-BLUE);
-  letter-spacing: 0.32px;
-}
-.contact-info {
-  color: var(--SLATE);
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.32px;
-}
-.main-heading {
-  background-color: var(--NAVY-BLUE);
-}
-.header-1 {
-  color: var(--WHITE);
-  text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-  letter-spacing: 1.12px;
-}
+/* OUR TEAM STYLES */
 .team {
   background-color: var(--CLOUD);
 }
+/* FOOTER STYLES */
 footer {
   background-color: var(--NAVY-BLUE);
 }
