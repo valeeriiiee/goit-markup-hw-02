@@ -5,6 +5,7 @@
   --CLOUD: #f4f4fd;
   --SLATE: #434455;
   --CORNFLOWER: #e7e9fc;
+  --OCEAN: #404bbf;
 }
 /* STYLES FOR MAIN TAGS */
 body {
@@ -35,6 +36,9 @@ ul {
   color: var(--NAVY-BLUE);
   letter-spacing: 0.32px;
 }
+.main-header-menu-link:hover {
+  color: var(--OCEAN);
+}
 a[href="mailto:info@devstudio.com"] {
   font-size: 16px;
   color: var(--SLATE);
@@ -47,6 +51,12 @@ a[href="tel:+11(000)111-11-11"] {
   font-weight: 400;
   letter-spacing: 0.32px;
 }
+a[href="mailto:info@devstudio.com"]:hover {
+  color: var(--OCEAN);
+}
+a[href="tel:+11(000)111-11-11"]:hover {
+  color: var(--OCEAN);
+}
 /* FIRST SECTION STYLES */
 .main-heading {
   background-color: var(--NAVY-BLUE);
@@ -58,7 +68,7 @@ a[href="tel:+11(000)111-11-11"] {
   font-weight: 700;
   letter-spacing: 1.12px;
 }
-button {
+.order-service-button {
   background-color: var(--IRIS);
   color: var(--WHITE);
   font-size: 16px;
@@ -106,3 +116,5 @@ footer {
 .p-footer {
   color: var(--CLOUD);
 }
+/* PORTFOLIO STYLES */
+/*  */
